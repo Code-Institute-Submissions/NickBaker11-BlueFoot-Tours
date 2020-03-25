@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+/*-----------------------Header----------------*/
+
+.title{
+    color: #fafafa;
+    font-weight: 700;
+    background-color: blue;
+    min-height: 150px;
+}
+
+.list-inline-navbar{
+    display: inline-block;
+    background-color: blue;
+    color: #fafafa;
+}
+
+
