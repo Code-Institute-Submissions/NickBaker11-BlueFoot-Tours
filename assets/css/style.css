@@ -5,7 +5,7 @@ header{
     line-height: 0;
 }
 
-/*-----------------------Header----------------*/
+/*--------------------------------------Header*/
 .img-fluid{
     background-position: center;
     background-repeat: no-repeat;
@@ -30,31 +30,26 @@ header{
     font-size: 150px;
 }
 
-.list-inline{
-    margin: 0;
-}
 
-#nav{
-   margin: 0;
-}
 
 .list-inline-item{
     font-family: "Caveat", sans-serif;
     background-color: #384BC2;
     font-size: 60px;
     display: inline;
-    position: center;
 }
 
 .list-inline-item span{
     color: #fff;
     text-align: center;
+  
     padding-left: 7px;
     padding-right: 7px;
 }
 
 .list-inline-item i{
     color: #fff;
+    
 }
 
 .list-inline-item:not(:last-child){
@@ -65,19 +60,33 @@ header{
 /*---------------------------------------Main Body*/
 .main-text{
     font-family: "Nunito", sans-serif;
-    color: #fff;
-    background-color: #525252;
+    color: #525252;
+    background-color: #EBE0B5;
 }
 
+/*---------------------------------------Map Section*/
 
+.location{
+    color: #525252;
+    background-color: #EBE0B5;
+    text-align: center;
+}
 /*---------------------------------------Footer*/
 .footer{
     font-family: "Caveat", sans-serif;
     background-color: #384BC2;
     color: #fff;
-
+    font-size: 25px;
+    
 }
 
-.social-links{
+.footer i{
     color: #fff;
+    padding: 10px;
+    text-align: center;
 }
+
+.phone-number{
+    float: right;
+}
+
