@@ -54,20 +54,19 @@ header{
     
 }
 
-.list-inline-item:not(:last-child){
+/* .list-inline-item:not(:last-child){
     margin: 0;
-}
+} */
 
 .list-inline-item a{
     text-decoration: none;
 }
 
-
 /*---------------------------------------Main Body*/
 .main-body{
     font-family: "Nunito", sans-serif;
-    color: #0C11E8;
-    background-color: #87D9E8;
+    color: #87D9E8;
+    background-color: #0C11E8;
     text-align: justify;
     font-size: 20px;
     
@@ -119,11 +118,18 @@ header{
 /*---------------------------------------Tours Page*/
 
 
-.tours-main-text{
+.tours-main-body{
     color: #0C11E8;
     background-color:  #87D9E8;
 }
 
+.tours-main-title{
+    text-align: center;
+}
+
+.tours-main-text{
+    font-size: 20px;
+}
 
 /*---------------------------------------Contact Page*/
 
