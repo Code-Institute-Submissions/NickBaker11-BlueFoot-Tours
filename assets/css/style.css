@@ -26,18 +26,20 @@ header{
     font-family: "Caveat", sans-serif;
     color: #fff;
     font-weight: 500;
-    background-color:#525252;
+    background-color:#87D9E8;
     min-height: 150px;
     margin: 0;
     padding: 0;
     font-size: 150px;
 }
 
-
+.list-inline{
+    margin-bottom: 0;
+}
 
 .list-inline-item{
     font-family: "Caveat", sans-serif;
-    background-color: #525252;
+    background-color: #87D9E8;
     font-size: 50px;
     display: inline;
 }
@@ -62,45 +64,72 @@ header{
 
 
 /*---------------------------------------Main Body*/
-.main-text{
+.main-body{
     font-family: "Nunito", sans-serif;
-    color: #525252;
-    background-color: #FFDF38;
+    color: #0C11E8;
+    background-color: #87D9E8;
     text-align: justify;
+    font-size: 20px;
+    
+}
+
+.main-body-text{
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 /*---------------------------------------Map Section*/
 
 .location{
-    color: #525252;
-    background-color: #FFDF38;
+    color: #0C11E8;
     text-align: center;
+    background-color: #87D9E8;
+}
+
+.map{
+    width: 100%;
+}
+
+.location-text{
+    font-size: 20px;
 }
 /*---------------------------------------Footer*/
 .footer{
     font-family: "Caveat", sans-serif;
-    background-color: #525252;
+    background-color: #87D9E8;
     color: #fff;
     font-size: 25px;
-    
 }
 
 .footer i{
     color: #fff;
     padding: 10px;
-    text-align: center;
+    letter-spacing: 40px;
+}
+
+.social-links{
+        text-align: center;
 }
 
 .phone-number{
     float: right;
 }
 
+/*---------------------------------------Tours Page*/
+
+
+.tours-main-text{
+    color: #0C11E8;
+    background-color:  #87D9E8;
+}
+
 
 /*---------------------------------------Contact Page*/
 
 .info{
-   color: #525252;
-    background-color: #FFDF38; 
+   color: #0C11E8;
+    background-color:  #87D9E8;
     margin: 0;
     text-align: center;
     padding-top: 10px;
@@ -109,8 +138,8 @@ header{
 }
 
 form{
-    color: #525252;
-    background-color: #FFDF38;
+    color: #0C11E8;
+    background-color: #87D9E8;
     height: 100%;
     margin-bottom: 0;
     text-align: center;
@@ -120,12 +149,13 @@ form{
     text-align: center;
     padding: 5px;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 
 .ask-away{
-    color: #FFDF38;
-    background-color: #525252;
+    color:  #87D9E8;
+    background-color: #0C11E8;
     font-size: 30px;
     padding: 10px;
     margin-top: 40px;
@@ -139,6 +169,19 @@ form{
 }
 
 .text-box{
-    color: #FFDF38;
-    background-color: #525252;
+    color:  #87D9E8;
+    
+    
+
+}
+
+/*---------------------------------------Photos Page*/
+
+.container photos-images{
+   margin: 0;
+    padding: 0;
+}
+
+.photos-images{
+    padding: 0;
 }
