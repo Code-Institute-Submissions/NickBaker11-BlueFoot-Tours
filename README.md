@@ -19,3 +19,4 @@ Bootstrap- https://getbootstrap.com/ To help me with the general structure, usin
 Font Awesome- https://fontawesome.com/ Theallowed my to use different fonts and icons
 Adobe colour-https://color.adobe.com/create Helped to choose the colours for fonts and background
 Diff Checker- https://www.diffchecker.com/ To check for errors in my code
+Stack Overflow- https://stackoverflow.com/ to help answer questions I have
