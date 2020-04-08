@@ -1,4 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Caveat|Nunito&display=swap');
+@media (max-width: 40em){
+    .index-images {
+        display: none;
+    }
+}
+
+@media (max-width: 40em){
+    .location{
+        display: none;
+    }
+}
+
+@media (max-width: 40em){
+    .tours-images{
+        display: none;
+    }
+}
 
 
 header{
@@ -112,7 +129,11 @@ header{
 }
 
 .phone-number{
-    float: right;
+   text-align: center;
+}
+
+.opening-hours{
+     text-align: center;
 }
 
 /*---------------------------------------Tours Page*/
