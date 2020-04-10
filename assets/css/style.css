@@ -17,6 +17,12 @@
     }
 }
 
+@media (max-width: 40em){
+    .contact-images{
+        display: none;
+    }
+}
+
 
 header{
     line-height: 0;
@@ -44,21 +50,25 @@ header{
     color: #fff;
     font-weight: 500;
     background-color:#87D9E8;
-    min-height: 150px;
+    text-align: center;
     margin: 0;
     padding: 0;
     font-size: 150px;
 }
 
-.list-inline{
-    margin-bottom: 0;
+li{
+    margin: 0;
 }
 
 .list-inline-item{
     font-family: "Caveat", sans-serif;
     background-color: #87D9E8;
+    text-align: center;
     font-size: 50px;
-    display: inline;
+    margin: 0;
+    width: 100%;
+    float: left;
+    padding-bottom: 10px;
 }
 
 .list-inline-item span{
@@ -68,15 +78,19 @@ header{
 
 .list-inline-item i{
     color: #fff;
-    
 }
 
-/* .list-inline-item:not(:last-child){
+.list-inline-item:not(:last-child){
     margin: 0;
-} */
+}
 
 .list-inline-item a{
     text-decoration: none;
+}
+
+#nav{
+    margin: 0;
+    padding: 0;
 }
 
 /*---------------------------------------Main Body*/
@@ -86,7 +100,7 @@ header{
     background-color: #0C11E8;
     text-align: justify;
     font-size: 20px;
-    
+    display: block;
 }
 
 .main-body-text{
@@ -161,7 +175,6 @@ header{
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-
 }
 
 form{
@@ -179,7 +192,6 @@ form{
     margin-top: 0;
 }
 
-
 .ask-away{
     color:  #87D9E8;
     background-color: #0C11E8;
@@ -191,15 +203,16 @@ form{
     
 }
 
+.form{
+    padding: 0;
+}
+
 .contact-images{
     padding: 0;
 }
 
 .text-box{
     color:  #87D9E8;
-    
-    
-
 }
 
 /*---------------------------------------Photos Page*/
