@@ -56,10 +56,6 @@ header{
     font-size: 150px;
 }
 
-li{
-    margin: 0;
-}
-
 .list-inline-item{
     font-family: "Caveat", sans-serif;
     background-color: #87D9E8;
@@ -93,14 +89,31 @@ li{
     padding: 0;
 }
 
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 /*---------------------------------------Main Body*/
 .main-body{
     font-family: "Nunito", sans-serif;
-    color: #87D9E8;
-    background-color: #0C11E8;
+    color: #3F6099;
+    background-color: #87D9E8;;
     text-align: justify;
     font-size: 20px;
     display: block;
+    border: solid 5px #3F6099;
 }
 
 .main-body-text{
@@ -112,18 +125,26 @@ li{
 /*---------------------------------------Map Section*/
 
 .location{
-    color: #0C11E8;
+    color: #3F6099;
     text-align: center;
     background-color: #87D9E8;
+    border: solid 5px #3F6099;
+}
+
+.location-title{
+    padding: 15px;
+}
+
+.location-text{
+    font-size: 20px;
+    padding: 15px;
 }
 
 .map{
     width: 100%;
 }
 
-.location-text{
-    font-size: 20px;
-}
+
 /*---------------------------------------Footer*/
 .footer{
     font-family: "Caveat", sans-serif;
@@ -154,8 +175,9 @@ li{
 
 
 .tours-main-body{
-    color: #0C11E8;
+    color: #3F6099;
     background-color:  #87D9E8;
+    border: solid 5px #3F6099;
 }
 
 .tours-main-title{
@@ -169,7 +191,7 @@ li{
 /*---------------------------------------Contact Page*/
 
 .info{
-   color: #0C11E8;
+   color: #3F6099;
     background-color:  #87D9E8;
     margin: 0;
     text-align: center;
@@ -178,11 +200,12 @@ li{
 }
 
 form{
-    color: #0C11E8;
+    color: #3F6099;
     background-color: #87D9E8;
     height: 100%;
     margin-bottom: 0;
     text-align: center;
+    border: solid 5px #3F6099;
 }
 
 .form-text{
@@ -194,9 +217,10 @@ form{
 
 .ask-away{
     color:  #87D9E8;
-    background-color: #0C11E8;
+    background-color: #3F6099;
     font-size: 30px;
     padding: 10px;
+    margin-bottom: 20px;
     margin-top: 40px;
     border-radius: 10%;
     border:none;
