@@ -53,14 +53,14 @@ header{
     text-align: center;
     margin: 0;
     padding: 0;
-    font-size: 150px;
+    font-size: 12vw;
 }
 
 .list-inline-item{
     font-family: "Caveat", sans-serif;
     background-color: #87D9E8;
     text-align: center;
-    font-size: 50px;
+    font-size: 3.5vw;
     margin: 0;
     width: 100%;
     float: left;
@@ -112,8 +112,8 @@ header{
     background-color: #87D9E8;;
     text-align: justify;
     font-size: 20px;
-    display: block;
     border: solid 5px #3F6099;
+    width: 100%;
 }
 
 .main-body-text{
@@ -236,7 +236,7 @@ form{
 }
 
 .text-box{
-    color:  #87D9E8;
+    color:  #3F6099;
 }
 
 /*---------------------------------------Photos Page*/
