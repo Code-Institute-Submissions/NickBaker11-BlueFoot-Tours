@@ -20,3 +20,7 @@ Font Awesome- https://fontawesome.com/ Theallowed my to use different fonts and 
 Adobe colour-https://color.adobe.com/create Helped to choose the colours for fonts and background
 Diff Checker- https://www.diffchecker.com/ To check for errors in my code
 Stack Overflow- https://stackoverflow.com/ to help answer questions I have
+
+Images- All images are photos taken by myself on the Galapagos Islands, with the exceptions of-
+'lonesome-george' taken from Wikipedia
+'bluefootlogo-edit' taken from https://www.kickstarter.com/projects/bebezee/the-blue-footed-booby-enamel-pin
