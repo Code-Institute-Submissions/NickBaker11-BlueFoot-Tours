@@ -1,23 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Caveat|Nunito&display=swap');
-@media (max-width: 40em){
+
+@media (min-width: 768px){
+    .title {
+        font-size: 150px;
+    }
+}
+
+@media (min-width: 768px){
+    .list-inline-item a {
+        font-size: 47px;
+    }
+}
+
+@media (max-width: 768px){
     .index-images {
         display: none;
     }
 }
 
-@media (max-width: 40em){
+@media (max-width: 768px){
     .location{
         display: none;
     }
 }
 
-@media (max-width: 40em){
+@media (max-width: 768px){
     .tours-images{
         display: none;
     }
 }
 
-@media (max-width: 40em){
+@media (max-width: 768px){
     .contact-images{
         display: none;
     }
@@ -34,6 +47,8 @@
         font-size: 50px;
     }
 }
+
+/*--------------------------------------General margins and padding*/
 
 header{
     line-height: 0;
@@ -52,16 +67,17 @@ header{
 .col{
     padding: 0;
 }
-/*--------------------------------------Header*/
+
 .img-fluid{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    object-fit: contain;
     padding: 0;
     margin: 0;
-    overflow:hidden;
+    
 }
+/*--------------------------------------Header*/
+
 
 .logo{
     background-position: center;
@@ -83,7 +99,7 @@ header{
     font-family: "Caveat", sans-serif;
     background-color: #87D9E8;
     text-align: center;
-    font-size: 50px;
+    font-size: 25px;
     margin: 0;
     width: 100%;
     float: left;
@@ -213,7 +229,6 @@ header{
 .tours-main-text{
     font-size: 20px;
 }
-
 /*---------------------------------------Contact Page*/
 
 .info{
@@ -223,6 +238,7 @@ header{
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    border: solid 5px #3F6099;
 }
 
 form{
@@ -232,6 +248,7 @@ form{
     margin-bottom: 0;
     text-align: center;
     border: solid 5px #3F6099;
+    border-top: none;
 }
 
 .form-text{
@@ -263,8 +280,13 @@ form{
 
 .text-box{
     color:  #3F6099;
+    border: solid 1px #3F6099
 }
 
+#inquiry{
+    max-height: 200px;
+    
+}
 /*---------------------------------------Photos Page*/
 
 .container photos-images{
