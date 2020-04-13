@@ -9,9 +9,9 @@ There will be a 'Tours' page which goes into more depth about tours the company 
 
 Features
 
-The navbar below the logo and title will allow the user to navigate between each page- Home, Tours and Contact, each having different information.
+The navbar below the logo and title will allow the user to navigate between each page- Home, Tours and Contact, each having different information. Clicking on the logo will also bring the user to the Home page.
 The Contact page has a form with name, email and query sections that would allow the user to ask questions of the company in regard to tours/extra information
-In the footer of each page there are links to social media and trip advisor where they would be able to access the sites social media presence.
+In the footer of each page there are links to social media (Facebook and Instagram) and TripAdvisor where they would be able to access the sites social media presence and find reviews were the cmopany real.
 
 Technologies Used
 
@@ -21,6 +21,18 @@ Adobe colour-https://color.adobe.com/create Helped to choose the colours for fon
 Diff Checker- https://www.diffchecker.com/ To check for errors in my code
 Stack Overflow- https://stackoverflow.com/ to help answer questions I have
 
-Images- All images are photos taken by myself on the Galapagos Islands, with the exceptions of-
+Testing-
+Testing the navbar- clicking on Home and/or the logo on all four pages brings you to the Home page
+                   - clicking on Tours on all four pages brings you to the Tours page
+                    - clicking on Contact on all four pages brings you to the Contact page
+                     - clicking on Photos on all four pages brings you to the Photos page
+                     
+Testing the form- Each section of the form bring up a Please fill out this field' message if you try to submit an empty form.
+                - The email section of the form requires a valid email address with an '@' to be submitted successfully.
+                - The 'Inquiry' section brings up a Please fill out this field' message if you try to submit an empty field, even                         the other two fields are filled correctly.
+                
+                
+Credits
+Media- All images are photos taken by myself on the Galapagos Islands, with the exceptions of-
 'lonesome-george' taken from Wikipedia
-'bluefootlogo-edit' taken from https://www.kickstarter.com/projects/bebezee/the-blue-footed-booby-enamel-pin
+'bluefootlogo-edit' taken from https://www.kickstarter.com/projects/bebezee/the-blue-footed-booby-enamel-pin               
