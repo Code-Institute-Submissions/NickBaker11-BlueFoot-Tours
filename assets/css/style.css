@@ -25,6 +25,7 @@
 
 header{
     line-height: 0;
+    border-bottom: solid 10px #3F6099;
 }
 
 .container-fluid{
@@ -48,6 +49,10 @@ header{
     padding: 0;
     margin: 0;
     
+}
+
+hr .rounded{
+    border-top: solid 5px #3F6099;
 }
 /*--------------------------------------Header*/
 
@@ -135,7 +140,6 @@ header{
     background-color: #87D9E8;;
     text-align: justify;
     font-size: 20px;
-    border: solid 5px #3F6099;
     width: 100%;
 }
 
@@ -151,7 +155,6 @@ header{
     color: #3F6099;
     text-align: center;
     background-color: #87D9E8;
-    border: solid 5px #3F6099;
 }
 
 .location-title{
@@ -175,6 +178,7 @@ header{
     color: #fff;
     font-size: 25px;
     margin: 0;
+    border-top: solid 10px #3F6099;
 }
 
 .footer i{
@@ -203,22 +207,11 @@ header{
 .tours-main-body{
     color: #3F6099;
     background-color:  #87D9E8;
-    border: solid 5px #3F6099;
     border-bottom: none;
 }
 
  .tours-main-body p{
     margin: 0;
-}
-.tours-main-body-scuba{
-     color: #3F6099;
-    background-color:  #87D9E8;
-    border: solid 5px #3F6099;
-    border-bottom: solid 5px #3F6099;
-}
-
-.tours-main-body-scuba p{
-    margin-bottom: 0;
 }
 
 .tours-main-title{
@@ -231,6 +224,19 @@ header{
     padding: 5px;
    
 }
+
+/*---------------------------------------Photos Page*/
+
+.container photos-images{
+   margin: 0;
+    padding: 0;
+}
+
+.photos-images{
+    padding: 0;
+    border: solid 2.5px #87D9E8;
+}
+
 /*---------------------------------------Contact Page*/
 
 .info{
@@ -239,8 +245,8 @@ header{
     margin: 0;
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 10px;
-    border: solid 5px #3F6099;
+    padding-bottom: 10px;   
+    border-bottom: solid 5px #3F6099; 
 }
 
 form{
@@ -251,6 +257,7 @@ form{
     text-align: center;
     border: solid 5px #3F6099;
     border-top: none;
+    border-bottom: none;
 }
 
 .form-text{
@@ -288,14 +295,4 @@ form{
 #inquiry{
     max-height: 200px;
     
-}
-/*---------------------------------------Photos Page*/
-
-.container photos-images{
-   margin: 0;
-    padding: 0;
-}
-
-.photos-images{
-    padding: 0;
 }
