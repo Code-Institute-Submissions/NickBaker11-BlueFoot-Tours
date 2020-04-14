@@ -15,13 +15,23 @@
     }
     .contact-images{
         display: none;
+    }   
+    .photo-info{
+        display: none;
     }
-   
 }
 
 
 
 /*--------------------------------------General margins and padding*/
+body{
+    max-width: 1400px;
+    
+}
+
+div{
+    background-color: #87D9E8;
+}
 
 header{
     line-height: 0;
@@ -61,6 +71,8 @@ hr .rounded{
     background-position: center;
     width: 100%;
     position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
     }
 
 .title{
@@ -227,16 +239,29 @@ hr .rounded{
 
 /*---------------------------------------Photos Page*/
 
-.container photos-images{
+.container-fluid photos-images{
    margin: 0;
     padding: 0;
 }
 
-.photos-images{
+.photos-images .img-fluid{
     padding: 0;
-    border: solid 2.5px #87D9E8;
+    border-right: solid 2.5px #87D9E8;
+    border-left: solid 2.5px #87D9E8;
+
 }
 
+.photo-title{
+    color: #3F6099;
+    text-align: center;
+    border-bottom: solid 5px #3F6099;
+    padding-bottom: 5px;
+}
+
+.photo-info{
+        color: #3F6099;
+        text-align: center;
+}
 /*---------------------------------------Contact Page*/
 
 .info{
