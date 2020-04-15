@@ -32,15 +32,22 @@ and TripAdvisor where they would be able to access the sites social media presen
 
 ## Testing
 
-*Testing the navbar  1. Clicking on Home and/or the logo on all four pages brings you to the Home page.
+Testing the navbar  1. Clicking on Home and/or the logo on all four pages brings you to the Home page.
+
                      2. Clicking on Tours on all four pages brings you to the Tours page.
+
                      3. Clicking on Photos on all four pages brings you to the Photos page .
+
                      4. Clicking on Contact on all four pages brings you to the Contact page.
+
                      5. Clicking on the logo in the top right will bring you to the Home page from each other page.
+
                     
                      
-*Testing the form 1. If you try to submit an empty form, warnings come up on each text box asking the user to @fill out this field'
+Testing the form 1. If you try to submit an empty form, warnings come up on each text box asking the user to @fill out this field'
+
                   2. The email section of the form requires a valid email address with an '@' to be submitted successfully.
+
                   3. The 'Inquiry' section brings up a Please fill out this field' message if you try to submit an empty field, even.                        the other two fields are filled correctly.
                 
                 

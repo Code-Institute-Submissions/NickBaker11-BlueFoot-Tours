@@ -172,8 +172,14 @@ hr .rounded{
     .tours-main-title{
          font-size: 50px;
     }
-    .tours-main-text{
+    .tours-main-body .tours-main-text{
         font-size: 30px;
+    }
+    .tours-main-body-scuba .tours-main-text{
+        font-size: 30px;
+    }
+    .photo-title{
+        font-size: 50px;
     }
     .photo-info{
         font-size: 30px;
@@ -197,6 +203,16 @@ hr .rounded{
     .location .location-text{
     font-size: 40px;
     }
+      .tours-main-title{
+         font-size: 75px;
+    }
+    .tours-main-body .tours-main-text{
+        font-size: 40px;
+    }
+    .tours-main-body-scuba .tours-main-text{
+        font-size: 40px;
+    }
+    
 }
 
 /*---------------------------------------Main Body*/
@@ -390,10 +406,27 @@ form{
         width: 75%;
     }
 
-    @media (max-width: 1100px){
+@media (max-width: 1100px){
     
     .text-box{
         width: 75%;
     }
+}
 
-
+@media (min-width: 2000px){
+    
+     .info{
+        font-size: 50px;
+    }
+    .form-text{
+        font-size: 50px;
+        padding-top: 30px;
+    }
+    input [type="size"]{
+            size: 80;
+    }
+    .ask-away{
+        font-size: 50px;
+    }
+}
+   
