@@ -21,13 +21,10 @@
 }
 
 /*--------------------------------------General margins and padding*/
-html{
-    margin: 0;
-}
 body{
-    min-width: 320px;
+    max-width: 3000px;
+    margin: auto;
 }
-
 div{
     background-color: #87D9E8;
 }
@@ -38,12 +35,11 @@ header{
     margin: 0;
 }
 
-div .container{
-   overflow: auto;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-}
+.container{
+    overflow: auto;
+    margin: 0;
+    min-width: 100%;
+    padding: 0;
 }
 
 .row{
@@ -171,7 +167,16 @@ hr .rounded{
         font-size: 50px;
     }
     .location .location-text{
-    font-size: 30px;
+        font-size: 30px;
+    }
+    .tours-main-title{
+         font-size: 50px;
+    }
+    .tours-main-text{
+        font-size: 30px;
+    }
+    .photo-info{
+        font-size: 30px;
     }
 }
 
