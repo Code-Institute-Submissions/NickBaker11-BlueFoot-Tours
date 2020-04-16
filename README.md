@@ -52,6 +52,9 @@ sites social media presence and find reviews if the were company real.
 The site has roughly the same look on medium devices and above with changes to text and image sizes. On smaller devices I have 
 hidden certain elemnts such as images and text to give it a better flow.
 
+I sent my live link to friends and family, asking them for feedback and screenshots to see how it looked on their devices with positive results.
+Also gave me insight on issues to fix.
+
 
 ## Deployment
 I used GitHub Pages to deploy my site using the given instructions on GitHub.

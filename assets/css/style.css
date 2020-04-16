@@ -429,10 +429,26 @@ form{
         font-size: 50px;
         padding-top: 30px;
     }
-    input{
-        height: 80;
+    #name{
+        height: 100px;
+    }
+    #email{
+        height: 100px;
+    }
+    input[type="text"] {
+    font-size: 50px;
+    }
+    input[type="email"] {
+    font-size: 50px;
+    }
+    textarea[type="text"] {
+    font-size: 50px;
     }
     .ask-away{
         font-size: 50px;
+    }
+    ::placeholder{
+        font-size: 50px;
+        text-align: left;
     }
 }
