@@ -33,7 +33,8 @@ sites social media presence and find reviews if the were company real.
 * Adobe colour-https://color.adobe.com/create Helped to choose and create the colours for fonts and background.
 * Diff Checker- https://www.diffchecker.com/ To check for errors in my code.
 * Stack Overflow- https://stackoverflow.com/ to help answer questions I have.
-* Chrome DevTools- Helped me fins and fix issues such as margin errors or padding I didn't want/need.
+* Chrome DevTools- Helped me find and fix issues such as margin errors or padding I didn't want/need.
+* Free Formatter- https://www.freeformatter.com/html-formatter.html#ad-output to tidy my code as I feel GitPod spreads out too much.
 
 ## Testing
 
