@@ -23,7 +23,7 @@ The navbar below the logo and title will allow the user to navigate between each
 information and media. Clicking on the logo will also bring the user to the Home page. 
 The Contact page has a form with name, email and query sections that would allow the user to ask questions of the company in regard to 
 tours/extra information. 
-In the footer of each page there are links to social media (Facebook and Instagram)and TripAdvisor where they would be able to access the 
+In the footer of each page of each page there are links to social media (Facebook and Instagram)and TripAdvisor where they would be able to access the 
 sites social media presence and find reviews if the were company real.
 
 ## Technologies Used
@@ -34,7 +34,7 @@ sites social media presence and find reviews if the were company real.
 * Diff Checker- https://www.diffchecker.com/ To check for errors in my code.
 * Stack Overflow- https://stackoverflow.com/ to help answer questions I have.
 * Chrome DevTools- Helped me find and fix issues such as margin errors or padding I didn't want/need.
-* Free Formatter- https://www.freeformatter.com/html-formatter.html#ad-output to tidy my code as I feel GitPod spreads out too much.
+* Free Formatter- https://www.freeformatter.com/ to tidy my code as I feel GitPod spreads out too much.
 
 ## Testing
 
@@ -43,12 +43,18 @@ sites social media presence and find reviews if the were company real.
 2. Clicking on Tours on all four pages brings you to the Tours page.
 3. Clicking on Photos on all four pages brings you to the Photos page .
 4. Clicking on Contact on all four pages brings you to the Contact page.
-5. Clicking on the logo in the top right will bring you to the Home page from each other page.
+5. Clicking on the logo and the title in the top right will bring you to the Home page from each other page.
           
 * Testing the form 
 1. If you try to submit an empty form, warnings come up on each text box asking the user to 'fill out this field'
 2. The email section of the form requires a valid email address with an '@' to be submitted successfully.
-3. The 'Inquiry' section brings up a Please fill out this field' message if you try to submit an empty field.                     
+3. The 'Inquiry' section brings up a Please fill out this field' message if you try to submit an empty field. 
+
+* Social Media links
+1. When clicking on the Facebook link in the footer of each page, it takes you to the Facebook login page in a new tab
+2. When clicking on the TripAdvisor link in the footer of each page, it takes you to the TripAdvisor login page in a new tab
+3. When clicking on the Instagram link in the footer of each page, it takes you to the Instagram login page in a new tab
+
 
 The site has roughly the same look on medium devices and above with changes to text and image sizes. On smaller devices I have 
 hidden certain elemnts such as images and text to give it a better flow.

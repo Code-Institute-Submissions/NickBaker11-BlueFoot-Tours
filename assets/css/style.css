@@ -61,6 +61,7 @@ header{
 hr .rounded{
     border-top: solid 5px #3F6099;
 }
+
 /*--------------------------------------Header*/
 
 .logo{
@@ -69,7 +70,7 @@ hr .rounded{
     position: relative;
     padding-top: 20px;
     padding-bottom: 20px;
-    }
+}
 
 .title{
     font-family: "Caveat", sans-serif;
@@ -223,7 +224,7 @@ hr .rounded{
     
 }
 
-/*---------------------------------------Main Body*/
+/*---------------------------------------Home Main Body*/
 .main-body{
     font-family: "Nunito", sans-serif;
     color: #3F6099;
@@ -300,7 +301,8 @@ hr .rounded{
     color: #3F6099;
     background-color:  #87D9E8;
 }
- .tours-main-body p{
+
+.tours-main-body p{
     margin: 0;
 }
 
@@ -345,13 +347,13 @@ a:hover{
 }
 
 .photo-info{
-        color: #3F6099;
-        text-align: center;
+    color: #3F6099;
+    text-align: center;
 }
 /*---------------------------------------Contact Page*/
 
 .info{
-   color: #3F6099;
+    color: #3F6099;
     background-color:  #87D9E8;
     margin: 0;
     text-align: center;
@@ -412,7 +414,7 @@ form{
     .text-box {
         width: 75%;
     }
-
+}
 @media (max-width: 1100px){
     
     .text-box{
