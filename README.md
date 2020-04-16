@@ -25,6 +25,11 @@ tours/extra information.
 In the footer of each page, there are links to social media (Facebook and Instagram)and TripAdvisor where they would be able to access the 
 sites social media presence and find reviews if the were company real.
 
+## Future Enhancements
+
+* In future I would like to add a navicon and a message after the submit button hit been clicked.
+* I attempted both of these things but was unable to successfully implement them.
+
 ## Technologies Used
 
 * Bootstrap- https://getbootstrap.com/ To help me with the general structure, using rows and columns to simplify the layout.
@@ -66,7 +71,8 @@ I sent my live link to friends and family, asking them for feedback and screensh
 
 ## Deployment
 I used GitHub Pages to deploy my site using the given instructions on GitHub.
-https://nickbaker11.github.io/BlueFoot-Tours/
+I run my code locally through GitPod. There are no differences between my deployed and development versions.
+Here is a link to the live site https://nickbaker11.github.io/BlueFoot-Tours/
 
 ## Credits
 Content

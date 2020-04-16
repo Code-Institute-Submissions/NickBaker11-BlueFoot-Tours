@@ -39,6 +39,7 @@ header{
     margin: 0;
     min-width: 100%;
     padding: 0;
+    overflow-y: hidden;
 }
 
 .row{
@@ -160,22 +161,13 @@ hr .rounded{
     .title {
         font-size: 200px;
     }
-    .main-body-text{
+    .home-text{
         font-size: 30px;
     }
     .location-title{
         font-size: 50px;
     }
-    .location .location-text{
-        font-size: 30px;
-    }
-    .opening-hours{
-        font-size: 50px;
-    }
-    .social-links{
-        font-size: 50px;
-    }
-    .phone-number{
+    .footer-text{
         font-size: 50px;
     }
     .tours-main-title{
