@@ -12,7 +12,7 @@ The index page will be labeled as a 'Home' page with introductory information ab
 they provide. It will also have photos of animals taken on the Galapagos Islands, as will all of the pages. There will be a 'Tours' page 
 which goes into more depth about tours the company can run and a contact page with a form for inquires. I later decided to add a photos 
 page to utilise the media I and give the user an improved visual experience. The main colour (#87D9E8) was chosen as it mimics the colour of the feet of the animal the company is named after, the Blue Footed Boobie.
-
+I also re-sized and compressed all of the media so that it would have a good load time.
 * As a user I want the links I click on to take me to the correct page so that I can see the information there.
 * As a user I want the information to be easy to read -for example: text not small on large device and vice versa.
 
