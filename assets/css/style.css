@@ -2,24 +2,12 @@
 
 @media (max-width: 768px){
 
-    .index-images {
-        display: none;
-    }
-    .location{
-        display: none;
-    }
-    .tours-images{
-        display: none;
-    }
-    .contact-images{
-        display: none;
-    }   
-    .photo-info{
+    .mobile-hidden {
         display: none;
     }
 }
 
-/*--------------------------------------General margins and padding*/
+/*----------------------------------------------------------------General margins and padding*/
 body{
     max-width: 3000px;
     margin: auto;
@@ -50,6 +38,11 @@ header{
     padding: 0;
 }
 
+.col-12{
+    padding-right: 0;
+    padding-left: 0;
+}
+
 .img-fluid{
     background-position: center;
     background-repeat: no-repeat;
@@ -63,7 +56,7 @@ hr .rounded{
     border-top: solid 5px #3F6099;
 }
 
-/*--------------------------------------Header*/
+/*------------------------------------------------------------------------Header*/
 
 .logo{
     background-position: center;
@@ -132,6 +125,8 @@ hr .rounded{
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+
+/*----------------------------------------------------Media Queries for brakpoints- clashing lower down page*/
 
 @media (min-width: 768px){
     
@@ -216,7 +211,7 @@ hr .rounded{
     
 }
 
-/*---------------------------------------Home Main Body*/
+/*--------------------------------------------------------------------------Home Main Body*/
 .main-body{
     font-family: "Nunito", sans-serif;
     color: #3F6099;
@@ -232,7 +227,7 @@ hr .rounded{
     padding-left: 15px;
 }
 
-/*---------------------------------------Map Section*/
+/*-------------------------------------------------------------------------Map Section*/
 
 .location{
     color: #3F6099;
@@ -253,7 +248,7 @@ hr .rounded{
     width: 100%;
 }
 
-/*---------------------------------------Footer*/
+/*----------------------------------------------------------------------------------Footer*/
 .footer{
     font-family: "Caveat", sans-serif;
     background-color: #87D9E8;
@@ -281,7 +276,7 @@ hr .rounded{
      text-align: center;
 }
 
-/*---------------------------------------Tours Page*/
+/*---------------------------------------------------------------------------Tours Page*/
 
 .tours-main-body{
     color: #3F6099;
@@ -317,14 +312,14 @@ a:hover{
     text-decoration: none;
 }
 
-/*---------------------------------------Photos Page*/
+/*--------------------------------------------------------------------Photos Page*/
 
-.container-fluid photos-images{
+.container photos-images{
    margin: 0;
     padding: 0;
 }
 
-.photos-images .img-fluid{
+.photos-images{
     padding: 0;
     border-right: solid 2.5px #87D9E8;
     border-left: solid 2.5px #87D9E8;
@@ -342,7 +337,7 @@ a:hover{
     color: #3F6099;
     text-align: center;
 }
-/*---------------------------------------Contact Page*/
+/*----------------------------------------------------------------------Contact Page*/
 
 .info{
     color: #3F6099;
@@ -435,7 +430,7 @@ form{
     input[type="email"] {
     font-size: 50px;
     }
-    textarea[type="text"] {
+    textarea[id="inquiry"] {
     font-size: 50px;
     }
     .ask-away{

@@ -11,10 +11,18 @@ This site is aimed at tourists who want to see what the area has to offer, there
 The index page will be labeled as a 'Home' page with introductory information about the company, the owners and the sort of services that 
 they provide. It will also have photos of animals taken on the Galapagos Islands, as will all of the pages. There will be a 'Tours' page 
 which goes into more depth about tours the company can run and a contact page with a form for inquires. I later decided to add a photos 
-page to utilise the media I and give the user an improved visual experience. The main colour (#87D9E8) was chosen as it mimics the colour of the feet of the animal the company is named after, the Blue Footed Boobie.
+page to utilise the media I and give the user an improved visual experience. The main colour (#87D9E8) was chosen as it mimics the colour 
+of the feet of the animal the company is named after, the Blue Footed Boobie.
 I also re-sized and compressed all of the media so that it would have a good load time.
+For the 'logo' I only gave it a col size of three with the rest of header at 8 because I think it looks better than utilising the whole 
+12 cols available.
+The project changed over time from the orignal wireframe plan to include more media and be more aesthetically pleasing.
+
 * As a user I want the links I click on to take me to the correct page so that I can see the information there.
 * As a user I want the information to be easy to read -for example: text not small on large device and vice versa.
+
+Link to my wireframe- https://github.com/NickBaker11/BlueFoot-Tours/blob/master/assets/wireframes/Milestone%20Project%20no.1.pdf
+
 
 ## Features
 
@@ -79,7 +87,7 @@ Content
 * All text was written by me
 
 Media- All images are photos taken by myself on the Galapagos Islands, with the exceptions of-
-* 'lonesome-george.jpg' taken from Wikipedia
+* 'lonesome-george.jpg' taken from https://en.wikipedia.org/wiki/Lonesome_George
 * 'bluefootlogo-edit.jpg' taken from https://www.kickstarter.com/projects/bebezee/the-blue-footed-booby-enamel-pin  
 * 'puerto-ayora-map.jpg'  taken from https://www.pinterest.ie/pin/272749321154640179/         
 
