@@ -47,6 +47,7 @@ sites social media presence and find reviews if the were company real.
 * Stack Overflow- https://stackoverflow.com/ to help answer questions I have.
 * Chrome DevTools- Helped me find and fix issues such as margin errors or padding I didn't want/need. also for mimicking how the site will look on larger screen sizes.
 * Free Formatter- https://www.freeformatter.com/ to tidy my code as I feel GitPod spreads out too much.
+* Hover.css - https://ianlunn.github.io/Hover/ Allowed me to use a 'grow' effect when the cursor hovered over certain elements.
 
 ## Testing
 
@@ -83,6 +84,9 @@ I run my code locally through GitPod. There are no differences between my deploy
 Here is a link to the live site https://nickbaker11.github.io/BlueFoot-Tours/
 
 ## Credits
+Code
+* Any code with 'hvr-grow' in  my HTML and CSS (lines 113-127 in style.css) files are attributed to hover.css
+
 Content
 * All text was written by me
 
